@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#room {
+  transition: 2s ease-in-out;
+  transform: translatey(11%);
+}
+
+.controls {
+  display: flex;
+  column-gap: 4rem;
+}
+
+.buttons-primary {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: .4rem 2rem;
+  border-radius: 15px;
+  border: none;
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+}
